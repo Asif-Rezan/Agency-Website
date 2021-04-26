@@ -1,0 +1,51 @@
+a{text-decoration: none;}
+a{color: black;}
+
+.header{
+  position: absolute;
+  top: 1%;
+  left: 3%;
+  right: 3%;
+  opacity: 100%;
+}
+
+.img{
+  width: 100%;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+  clip-path: polygon(100% 0%, 100% 75%,50% 100%, 0% 75%, 0 0);
+  position:static;
+}
+.brand-text{
+ font-weight: bold;
+}
+.nt
+{
+  background-color: white;
+}
+.title-text
+{
+  position:absolute;
+  top: 35%;
+  padding-left: 15%;
+ 
+ 
+}
+.card :hover
+{ 
+  background-color:hsl(107, 31%, 6%);
+  color: white;
+  border: red;
+ 
+  
+
+}
+
+.card{
+  margin: auto;
+  border: 1px solid green;
+  margin-top: 20px;
+}
